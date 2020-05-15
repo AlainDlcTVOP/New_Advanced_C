@@ -1,7 +1,7 @@
 #ifndef INSERT_H_INCLUDED
 #define INSERT_H_INCLUDED
 struct Node;
-struct Node *create node(int data);
+struct Node *create_node(int data);
 
 void b_insert(struct Node **head, int data);
 
