@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
 {
     int size = 0;
 
-    struct myArray *ptr;
+    struct myArray *ptr = NULL;
 
     ptr = malloc(sizeof(struct myArray) + size * sizeof(int));
 
