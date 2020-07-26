@@ -33,6 +33,7 @@ int main(int argc, char const *argv[])
     result = a ^= b;
 
     printf("XOR operant ^ %d\n", convertDecimalToBinary(result));
+
     shift = a << b;
 
     printf("SHIFT LEFT operant << %d\n", convertDecimalToBinary(shift));
